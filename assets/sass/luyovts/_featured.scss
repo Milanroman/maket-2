@@ -1,0 +1,69 @@
+.featured-heigth-row {
+  height: 253px;
+}
+.featured {
+  margin: 40px 0;
+  height: 307px;
+  background: $background-featured;
+  background-size: cover;
+}
+.featured-box {
+  @include featured-img-position(absolute, 15px, 0px);
+  top: 67px;
+  z-index: 1;
+  background: url("../img/roman/rectangle15.png") 100% no-repeat;
+  width: 263px;
+  height: 186px;
+}
+.featured-ellipsewhite {
+  @include featured-img-position(relative, 86px, 22px);
+  z-index: 2;
+}
+.featured-ellipselime {
+  @include featured-img-position(absolute, 110.5px, 32px);
+  z-index: 3;
+}
+#featured-box1 {
+  @include featured-img-position(absolute, 127px, 53px);
+  z-index: 4;
+}
+#featured-money-box{
+  @include featured-img-position(absolute, 122px, 43px);
+  z-index: 4;
+}
+#featured-car {
+  @include featured-img-position(absolute, 125px, 53px);
+  z-index: 4;
+}
+#featured-saxes {
+  @include featured-img-position(absolute, 125px, 47px);
+  z-index: 4;
+}
+.featured-box {
+  text-align: center;
+}
+.featured-box h3 {
+
+  text-transform:  uppercase;
+  font-family: $font-Intro-Regular;
+  color:  #2c3e50;
+  font-size: 14px;
+  font-weight: 300;
+  line-height:  16px;
+  text-align: center;
+  padding-top: 41px;
+}
+.featured-box p {
+  display: inline-block;
+  width: 225px;
+  font-family: $font-HelveticaNeueCyr-Light;
+  color:  #a1b1bc;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: center;
+  /*padding-left: 30px;*/
+}
+.featured-box-h3-center {
+  margin-bottom: 10px;
+}

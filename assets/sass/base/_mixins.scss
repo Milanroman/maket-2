@@ -1,0 +1,33 @@
+.pading-null {
+//padding-left: 0 !important; ;
+//  padding-right: 0 !important;
+  padding: 0 !important;
+}
+.clearfix:before,.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+@mixin  simple-menu ($color, $hover-color) {
+  i {
+    cursor: pointer;
+  }
+  i:hover {
+    color:$hover-color;
+  }
+  display: inline-block;
+  color: $color;
+  font-size: 20px;
+
+}
+@mixin section-propertis($height, $background-color){
+  height: $height;
+  background-color: $background-color;
+}
+@mixin featured-img-position($position, $left, $padding-top){
+  position: $position;
+  left: $left;
+  padding-top:  $padding-top;
+}

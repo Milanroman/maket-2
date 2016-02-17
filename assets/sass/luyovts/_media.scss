@@ -1,0 +1,83 @@
+@media only screen and (max-width : 1246px) {
+    .header-slider-bottoms {
+        position: relative !important;
+        top: 50px;
+        z-index: 2;
+    }
+   .header-arrow:first-child {
+        right: 0px !important;
+        float: left;
+    }
+   .header-arrow:last-child {
+        float: right;
+        right: 0px !important;
+    }
+
+    .owl-wrapper-outer {
+        padding: 0 40px;
+    }
+
+}
+
+
+@media only screen and (max-width : 1210px) {
+    .mob-header {
+        background: url(../img/mob-heder/head-720-bg.png) no-repeat center;
+    }
+    .mob-header-block {
+        display: block;
+    }
+    .main-header {
+        display: none;
+    }
+    .mob-logo {
+        display: none;
+    }
+  .btn-slider-position {
+    font-size: 14px!important;
+  }
+}
+
+@media only screen and (max-width : 750px) {
+
+  .button-fix {
+    padding: 0px;
+    position: relative;
+    top: 57px;
+    left: 0px;
+  }
+
+.mid-mob-logo {
+  display: none;
+}
+  .mob-logo {
+    display: block;
+  }
+  .featured {
+    height: 1070px!important;
+  }
+
+  .btn-slider-position {
+    font-size: 10px!important;
+  }
+}
+
+
+@media only screen and (max-width : 321px) {
+    .mob-header {
+        background: url(../img/mob-heder/mob-header-bg.png) no-repeat center;
+    }
+    .mob-logo {
+        display: block;
+    }
+    .mid-mob-logo {
+        display: none;
+    }
+  .baner {
+    display: none;
+  }
+
+  .in-basket:after {
+    left: 133px
+  }
+}

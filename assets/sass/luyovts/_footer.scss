@@ -1,0 +1,56 @@
+
+.footer-padding-null {
+  padding: 0;
+}
+.footer {
+  @include section-propertis(267px, #ecf0f1);  //Parameters of main sections
+}
+.footer-logo {
+  width: 240px;
+  padding-top: $footer-margin-top;
+  float: left;
+}
+.footer-logo img {
+  width: 100%;
+}
+#footer-logo-text1 {
+  padding-left: 45px;
+  padding-top: 35px;
+  font-family: $footer-font;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  text-align: left;
+  transform: scaleY(1.0001);
+}
+
+.footer-nav {
+  margin-top: $footer-margin-top;
+}
+.footer-nav a, .footer-nav p {
+  font-family: $footer-font;
+  color:  #2c3e50;
+  font-size: 14px;
+  line-height: 22px;
+}
+.footer-soc-img {
+  width: 28px;
+  height: 30px;
+  float: left;
+}
+.footer-soc-net img {
+  width: 100%;
+  height: 100%;
+  padding-right: 3px;
+}
+.footer-schedule {
+  margin-bottom: 0px;
+  font-family: $footer-font;
+  color: #2c3e50;
+  font-size: 14px;
+  line-height: 22px;
+}
+#logo2 {
+  margin-top: 20px;
+}

@@ -1,0 +1,37 @@
+@font-face {
+  font-family:'Bariol-Regular';
+  src: url('../../../css/Bariol-Regular_gdi.eot');
+  src: url('../../../css/Bariol-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+  url('../../../css/Bariol-Regular_gdi.woff') format('woff'),
+  url('../../../css/Bariol-Regular_gdi.ttf') format('truetype'),
+  url('../../../css/Bariol-Regular_gdi.svg#Bariol-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2265;
+}
+@font-face {
+  font-family: 'Intro-Regular';
+  src: url('../../../css/Intro_gdi.eot');
+  src: url('../../../css/Intro_gdi.eot?#iefix') format('embedded-opentype'),
+  url('../../../css/Intro_gdi.woff') format('woff'),
+  url('../../../css/Intro_gdi.ttf') format('truetype'),
+  url('../../../css/Intro_gdi.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2026;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr-Light';
+  src: url('../../../css/HelveticaNeueCyr-Light_gdi.eot');
+  src: url('../../../css/HelveticaNeueCyr-Light_gdi.eot?#iefix') format('embedded-opentype'),
+  url('../../../css/HelveticaNeueCyr-Light_gdi.woff') format('woff'),
+  url('../../../css/HelveticaNeueCyr-Light_gdi.ttf') format('truetype'),
+  url('../../../css/HelveticaNeueCyr-Light_gdi.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2265;
+}
